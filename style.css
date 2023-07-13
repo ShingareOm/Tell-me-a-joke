@@ -1,0 +1,71 @@
+body {
+    background: linear-gradient(to bottom right, gold, black);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(to right, #798727, #ffd700) no-repeat;
+    /* changed the background color from #e0e0e0 to #000000 */
+    background-size: 100% 100%;
+
+    @media (max-width: 600px) {
+        /* Styles for mobile devices */
+        font-size: 14px;
+    }
+}
+
+body:hover {
+    background: linear-gradient(to right, #3f431c, #ffd700) no-repeat;
+    /* changed the gradient color from #00a1ff to #ffd700 */
+    background-size: var(--x) 100%;
+}
+
+body:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: var(--x);
+    width: calc(100% - var(--x));
+    height: 100%;
+    background: linear-gradient(to right, #ffd700, #3f431c) no-repeat;
+    /* changed the gradient color from #00a1ff to #ffd700 */
+}
+
+div {
+    /* added this rule to create a centered div */
+    width: 400px;
+    height: auto;
+    background-color: white;
+    border: 2px solid black;
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    @media (max-width: 600px) {
+        /* Styles for mobile devices */
+        width: 80%;
+        height: auto;
+    }
+}
+
+button {
+    /* modified this rule to change the button color */
+    width: 100px;
+    height: 40px;
+    background-color: #ffd700;
+    /* changed the background color from navy to gold */
+    color: black;
+    /* changed the text color from white to black */
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
