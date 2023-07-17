@@ -43,7 +43,7 @@ If you would like to contribute to the Joke Webpage, follow these steps:
 
 2. Clone your forked repository to your local machine:
   ```bash{.no-scrollbar}
-  git clone https://github.com/Your-Username/joke-webpage.git
+  git clone https://github.com/ShingareOm/Tell-me-a-joke.git
   ```
 3. Create a new branch for your changes:
   ```bash{.no-scrollbar}
