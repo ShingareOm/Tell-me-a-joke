@@ -6,7 +6,7 @@ This simple webpage displays random jokes each time you click the "Navin Joke Bh
 
 ## Demo
 
-Check out the live demo of the Joke Webpage [here](https://your-demo-url.com).
+Check out the live demo of the Joke Webpage [here](https://shingareom.github.io/Tell-me-a-joke/).
 
 ## Installation
 
